@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background-color: #b1fbaa;
+}
+
+/*  */
+.list {
+    background-color: #83cdea;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 0;
+}
+
+.items {
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #c8ea83;
+}
